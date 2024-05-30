@@ -1,0 +1,2 @@
+import c from"react";import I from"react-dom/client";import{jsx as m}from"react/jsx-runtime";function o(){return m("strong",{children:"Ignite"})}import{jsx as n}from"react/jsx-runtime";function r(){return["Item 1","Item 2","Item 3","Item 4"].map(t=>n("li",{children:t},t))}import{Fragment as a,jsx as e,jsxs as d}from"react/jsx-runtime";function f(){return d(a,{children:[e(o,{}),e(r,{})]})}var p=f;import{jsx as i}from"react/jsx-runtime";I.createRoot(document.getElementById("root")).render(i(c.StrictMode,{children:i(p,{})}));
+//# sourceMappingURL=index.mjs.map

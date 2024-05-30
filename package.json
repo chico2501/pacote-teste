@@ -3,11 +3,10 @@
   "private": true,
   "version": "1.0.0",
   "main": "dist/index.js",
-  "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
-  "type": "module",
+  "module": "dist/index.esm.js",
   "scripts": {
-    "build": "tsup",
+    "build": "tsup src/index.tsx --format cjs,esm --dts",
     "dev": "vite",
     "preview": "vite preview",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
