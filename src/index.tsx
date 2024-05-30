@@ -1,9 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './modules/App';
+import { Header } from './modules/components/Header';
+import { List } from './modules/components/List';
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+export function App() {
+  return (
+    <>
+      <Header />
+      <List />
+    </>
+  );
+}
+
+export default App;
