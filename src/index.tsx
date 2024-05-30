@@ -1,7 +1,7 @@
 import { Header } from './modules/components/Header';
 import { List } from './modules/components/List';
 
-export function App() {
+export function Quote() {
   return (
     <>
       <Header />
@@ -10,4 +10,4 @@ export function App() {
   );
 }
 
-export default App;
+export default Quote;
